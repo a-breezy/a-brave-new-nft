@@ -138,6 +138,8 @@ app.post("/mint", upload.single('image'), async (req, res) => {
     }
 })
 
+
+// start express server
 app.listen(port, () => {
     console.log(`server started at http://localhost:${port}`);
 });
